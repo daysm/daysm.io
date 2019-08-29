@@ -168,6 +168,9 @@ figcaption {
 
 }
 
+
+// TABLES
+
 table {
   margin: 0;
   padding: 0;
@@ -190,4 +193,17 @@ th {
     font-variant: small-caps;
     font-size: 0.9rem;
     text-align: left;
+}
+
+
+// FOOTNOTES
+
+.footnotes {
+  ol {
+    li {
+      p {
+        display: inline;
+      }
+    }
+  }
 }
