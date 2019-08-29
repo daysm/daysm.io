@@ -39,7 +39,7 @@ When there are only two options (Print + Digital, Digital), I would prefer the D
 
 By adding Print as an option, suddenly Print + Digital becomes more attractive, because it has a clear relative advantage over Print. That there is no absolute advantage does not matter. When as in Scenario 1 all three options are presented, I would be far more likely to choose the more expensive Print + Digital, than in Scenario 2. This is known as the decoy effect and is one of the ways a consumer's decision can be influenced.
 
-![](/media/economist-subscriptions-pricing.png)
+![The Economist pricing options](/media/economist-subscriptions-pricing.png)
 
 # Primacy/recency effects
 example: top of the list
@@ -74,4 +74,4 @@ example: organ donation
 | Price  | 30€ | 20€ | 50€ |
 | # GB   | 10 | 6  | 12 |
 
-![](/media/decoy_effects.png)
+![Decoy effects](/media/decoy_effects.png)
