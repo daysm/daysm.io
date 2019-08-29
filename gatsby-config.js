@@ -112,6 +112,7 @@ module.exports = {
             resolve: 'gatsby-remark-figure-caption',
             options: { figureClassName: 'md-figure' },
           },
+          'gatsby-remark-numbered-footnotes',
           {
             resolve: 'gatsby-remark-images',
             options: {

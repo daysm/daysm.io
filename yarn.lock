@@ -5993,6 +5993,13 @@ gatsby-remark-katex@^3.1.6:
     remark-math "^1.0.6"
     unist-util-visit "^1.4.1"
 
+gatsby-remark-numbered-footnotes@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-numbered-footnotes/-/gatsby-remark-numbered-footnotes-1.0.0.tgz#39f181c9af77c9da184b88ef239fce2b55c69e3e"
+  integrity sha1-OfGBya93ydoYS4jvI5/OK1XGnj4=
+  dependencies:
+    remark-numbered-footnotes "^1.0.1"
+
 gatsby-remark-prismjs@^3.3.9:
   version "3.3.9"
   resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.3.9.tgz#20eb5fdf1d5481672517058216e8e817fc43c986"
@@ -12298,6 +12305,13 @@ remark-math@^1.0.6:
   dependencies:
     trim-trailing-lines "^1.1.0"
 
+remark-numbered-footnotes@^1.0.1:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/remark-numbered-footnotes/-/remark-numbered-footnotes-1.0.12.tgz#90bd679bf6d4f627bcb6280eba2400543c872b0c"
+  integrity sha512-PTC6ID97uup+jTow+gQ3gJivMYpbg8UMVDDcxi0BhpAOdRAZrtDH05daX/4I6jX8CQB60Gx1kfxcpT1VtAZidg==
+  dependencies:
+    unist-util-visit "^1.3.1"
+
 remark-parse@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-1.1.0.tgz#c3ca10f9a8da04615c28f09aa4e304510526ec21"
@@ -14556,7 +14570,7 @@ unist-util-visit-parents@^2.0.0, unist-util-visit-parents@^2.1.2:
   dependencies:
     unist-util-is "^3.0.0"
 
-unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.1.1, unist-util-visit@^1.1.3, unist-util-visit@^1.4.0, unist-util-visit@^1.4.1:
+unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.1.1, unist-util-visit@^1.1.3, unist-util-visit@^1.3.1, unist-util-visit@^1.4.0, unist-util-visit@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.4.1.tgz#4724aaa8486e6ee6e26d7ff3c8685960d560b1e3"
   integrity sha512-AvGNk7Bb//EmJZyhtRUnNMEpId/AZ5Ph/KUpTI09WHQuDZHKovQ1oEv3mfmKpWKtoMzyMC4GLBm1Zy5k12fjIw==

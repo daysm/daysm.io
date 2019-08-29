@@ -14,7 +14,7 @@ socialImage: "/media/decoy_effects.png"
 
 # Introduction
 
-Dan Ariely starts his book Predictably Irrational with the following example. Several years ago, The Economist offered these subscriptions:
+ Several years ago, The Economist offered these subscriptions[^dan-ariely-example]:
 
 <figure>
 
@@ -83,3 +83,6 @@ example: organ donation
 | # GB   | 10 | 6  | 12 |
 
 ![Decoy effects](/media/decoy_effects.png)
+
+[^dan-ariely-example]:
+  This is the example with which Dan Ariely starts his book Predictably Irrational.
