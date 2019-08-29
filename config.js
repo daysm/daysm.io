@@ -23,7 +23,7 @@ module.exports = {
   author: {
     name: 'Dayyan Smith',
     photo: '/photo.jpg',
-    bio: 'Autonomous Systems at KTH',
+    bio: '',
     contacts: {
       email: '',
       facebook: '',
