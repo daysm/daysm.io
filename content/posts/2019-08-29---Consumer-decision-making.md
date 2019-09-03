@@ -1,9 +1,9 @@
 ---
-title: Consumer decision making
+title: Effects in consumer decision making
 date: "2019-08-29T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/consumer-decision-making/"
+slug: "/effects-in-consumer-decision-making/"
 category: "Decision Making"
 tags:
   - "Dan Ariely"
@@ -12,10 +12,11 @@ description: "How we are driven towards certain decisions."
 socialImage: "/media/decoy_effects.png"
 ---
 
-# Introduction
-
  Several years ago, The Economist offered these subscriptions[^dan-ariely-example]:
 
+ ![The Economist pricing options](/media/economist-subscriptions-pricing.png)
+
+Or in table form:
 <figure>
 
 |        | Print  | Print + Digital | Digital |
@@ -25,8 +26,7 @@ socialImage: "/media/decoy_effects.png"
 <figcaption>Scenario 1</figcaption>
 </figure>
 
-Why is the price for Print and Print + Digital the same? Who would choose the Print option when you get Print + Digital for the same price?
-You might think that The Economist could have equivalently just offered these two options:
+Why is the price for *Print* and *Print + Digital* the same? You might think that The Economist could have equivalently just offered these two options:
 
 <figure>
 
@@ -37,17 +37,62 @@ You might think that The Economist could have equivalently just offered these tw
 <figcaption>Scenario 2</figcaption>
 </figure>
 
-You lose virtually nothing. You have the option to get a digital subscription and the option to get a print subscription.
-
-When there are only two options (Print + Digital, Digital), I would prefer the Digital option since it is cheaper and I am mainly interested in the content and not so much how it is delivered. But the existence of the third option, Print, plays an important role. 
+When there are only two options (*Print + Digital*, Digital), I would prefer the Digital option since it is cheaper and I am mainly interested in the content and not so much how it is delivered. But the existence of the third option, *Print*, plays an important role. 
 
 > "[...] humans rarely choose things in absolute terms. We don't have an internal value meter that tells us how much things are worth. Rather, we focus on the relative advantage of one thing over another, and estimate value accordingly."
 <br>
 – Dan Ariely in Predictably Irrational
 
-By adding Print as an option, suddenly Print + Digital becomes more attractive, because it has a clear relative advantage over Print. That there is no absolute advantage does not matter. When as in Scenario 1 all three options are presented, I would be far more likely to choose the more expensive Print + Digital, than in Scenario 2. This is known as the decoy effect and is one of the ways a consumer's decision can be influenced.
+By adding *Print* as an option, suddenly *Print + Digital* becomes more attractive, because it has a clear relative advantage over Print. That there is no absolute advantage does not matter. When, as in *Scenario 1*, all three options are presented, I would be far more likely to choose the more expensive *Print + Digital*, than in *Scenario 2*. This is known as the decoy effect and is one of the ways a consumer's decision can be influenced.
 
-![The Economist pricing options](/media/economist-subscriptions-pricing.png)
+# Decoy effects
+The decoy effect occurs when a consumer's preference between to options is altered when a third option is added.[^wiki-decoy-effect]
+Three different types of decoy effects can be seen in the diagram below: [asymmetric dominance effect](#asymmetric-dominance-effect), [attration-effect](#attraction-effect) and [compromise effect](#compromise-effect).
+When the decoy product is placed in the marked areas, the target product becomes more attractive.
+
+![Decoy effects](/media/decoy_effects.png)
+
+The example for all thee effects will be that of a mobile phone plan where the quality (y-axis) is measured in volume of high-speed data.
+
+In the table below is the relevant information for our target product (the one we want to sell) and its competitor.
+We will try three different decoy products and describe the associated effect.
+
+<figure>
+
+|        | Target  | Competitor |
+| -----  |----|----|
+| Price  | 30€ | 20€ |
+| # GB   | 10 | 6  |
+
+<figcaption>Target and competitor product</figcaption>
+</figure>
+
+## Asymmetric dominance effect
+In our example the asymmetric dominance effect applies when the decoy has a higher price and worse quality than the target.
+
+|        | Target  | Competitor | Decoy |
+| -----  |----|----|----|
+| Price  | 30€ | 20€ | 35€ |
+| # GB   | 10 | 6  | 9 |
+
+
+## Attraction effect
+In our example the attraction effect applies when the decoy has a slightly lower price than the target and the quality is between competitor and target.
+
+|        | Target  | Competitor | Decoy |
+| -----  |----|----|----|
+| Price  | 30€ | 20€ | 28€ |
+| # GB   | 10 | 6  | 7 |
+
+## Compromise effect
+In our example the compromise effect applies when the decoy has a higher price than the target but its quality is not higher than that of the target (and not lower than the competitor).
+
+|        | Target  | Competitor | Decoy |
+| -----  |---------|------------|-------|
+| Price  | 30€ | 20€ | 50€ |
+| # GB   | 10 | 6  | 12 |
+
+$abc$
 
 # Primacy/recency effects
 example: top of the list
@@ -59,30 +104,13 @@ example: 80% lean vs. 20% fat
 Defaults
 example: organ donation
 
-# Decoy effects
-## Asymmetric dominance effect
-
-|        | Target  | Competitor | Decoy |
-| -----  |----|----|----|
-| Price  | 30€ | 20€ | 35€ |
-| # GB   | 10 | 6  | 9 |
-
-
-## Attraction effect
-
-|        | Target  | Competitor | Decoy |
-| -----  |----|----|----|
-| Price  | 30€ | 20€ | 28€ |
-| # GB   | 10 | 6  | 7 |
-
-## Compromise effect
-
-|        | Target  | Competitor | Decoy |
-| -----  |---------|------------|-------|
-| Price  | 30€ | 20€ | 50€ |
-| # GB   | 10 | 6  | 12 |
-
-![Decoy effects](/media/decoy_effects.png)
 
 [^dan-ariely-example]:
-  This is the example with which Dan Ariely starts his book Predictably Irrational.
+  This is the example with which Dan Ariely starts his book [Predictably Irrational](https://www.amazon.com/dp/0061353248).
+
+[^wiki-decoy-effect]:
+  [Decoy effect](https://www.wikiwand.com/en/Decoy_effect)
+
+
+**Acknowledgement:**
+Based on lecture notes from the winter term 2017/18 lecture Digital Communities at TU Berlin.
