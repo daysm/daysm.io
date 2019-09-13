@@ -62,6 +62,7 @@
     "gatsby-remark-figure-caption": "^2.0.0",
     "gatsby-remark-images": "^3.1.18",
     "gatsby-remark-katex": "^3.1.6",
+    "gatsby-remark-mathjax": "^1.0.0",
     "gatsby-remark-numbered-footnotes": "^1.0.0",
     "gatsby-remark-prismjs": "^3.3.9",
     "gatsby-remark-relative-images": "^0.2.3",
