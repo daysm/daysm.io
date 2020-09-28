@@ -1,0 +1,2 @@
+# Redirect to dayyan.dev
+https://daysm.io/* https://dayyan.dev/:splat 301!
